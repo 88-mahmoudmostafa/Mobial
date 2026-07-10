@@ -195,3 +195,21 @@ h2{
     }
 
 }
+@media (max-width:300px) {
+    .header .logo{
+        width: 70px;
+        height: 70px;
+    }
+    .container{
+        padding: 3px;
+    }
+    .par{
+        font-size: 17px;
+        width: 60%;
+        
+    }
+    section{
+        gap: 3px;
+        margin-top: 13px;
+    }
+}
