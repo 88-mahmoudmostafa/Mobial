@@ -5,15 +5,16 @@
     font-family: sans-serif;
 }
 body{
-  /* background-color:#ddd; */
-  overflow: hidden;
+ height: 100vh;
+ 
 }
 .container{
     width: 100%;
     margin: auto;
     height: 100vh;
-    padding: 25px 80px;
-    position: relative;
+    padding: 18px 80px;
+     
+    
  
 }
 header{
@@ -26,7 +27,7 @@ header{
 header .logo{
        width: 140px;
        height: 100px;
-       margin-top: 20px;
+       margin-top: 10px;
     
 }
 .logo-img{
@@ -43,19 +44,22 @@ section{
     align-items: center;
     justify-content: space-between;
     gap: 40px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin: auto;
+    /* height: 100%; */
+    position: relative;
+   
 
 }
 .image{
-    width: 50%;
-    height: 400px;
+    width: 40%;
+    height: 300px;
 }
 .img-sc{
     width: 90%;
-    height: 100%;
+    height: 80%;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 30px;
     
 }
 
@@ -81,11 +85,15 @@ section{
    align-items: center;
    justify-content: center;
    margin: auto;
-   margin-bottom: -18px;
    position: absolute;
-   bottom: 40px;
+   margin-top: 7px;
    left: 50%;
    transform: translateX(-50%);
+   margin-top: 20px;
+   background-color: rgb(230, 232, 235);
+   width: 100%;
+   border-radius: 16px;
+   padding: 8px 4px;
 
 }
 .last img{
@@ -108,4 +116,48 @@ h2{
     font-size: 36px;
     font-weight: 700;
     color: black;
+}
+@media (max-width:500px) {
+    section{
+        gap: 5px;
+    }
+    .image{
+        height: 250px;
+         width: 45%; 
+    }
+    .img-sc{
+        margin-top: 30px;
+        /* width: 100%; */
+    }
+    .par{
+        width: 55%;
+        margin-top: 10px;
+        
+    }
+    .par p{
+        font-size: 14px;
+    }
+    .container{
+        padding: 10px 15px;
+    }
+    header{
+        width: 100%;
+        gap: 20px;
+    }
+    .logo{
+        width: 80px;
+        height: 80px;
+    }
+    .par h1{
+        font-size: 18px;
+    }
+    .par span{
+        font-size: 20px;
+    }
+    header h2{
+        font-size: 25px;
+    }
+    .last img{
+        width: 36px;
+    }
 }
