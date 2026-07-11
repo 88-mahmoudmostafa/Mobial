@@ -181,7 +181,7 @@ h2{
 }
 @media (min-width:501px) and (max-width:900px) {
     .container{
-        padding:  10px 15px;
+        padding:  10px 2px;
     }
     section{
         padding:  10px 0;
@@ -204,8 +204,8 @@ h2{
         height: 300px;
     }
     .container{
-        padding: 15px 5px;
-        height: 100%;
+        padding: 15px 2px;
+        height: 100vh;
     }
     .par{
         font-size: 20px;
@@ -217,11 +217,11 @@ h2{
         margin-top: 10px;
         margin-bottom: 0;
         padding: 10px 0;
-        height: 100vh;
+        height: 100%;
         margin-top: -25px;
     }
     header{
         margin-top: 20px;
-        height: 100vh;
+        height: 100%;
     }
 }
