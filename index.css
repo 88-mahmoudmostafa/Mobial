@@ -130,7 +130,7 @@ h2{
     }
     header{
         margin-bottom: 4px;
-        margin-top: 30px;
+        margin-top: 40px;
         
     }
     header .logo{
@@ -141,10 +141,10 @@ h2{
         gap: 10px;
         padding: 20px ;
         width: 100%;
-        margin-top: 30px;
+        margin-top: 50px;
     }
     .last{
-        bottom: 100px;
+        bottom: 50px;
     }
     .par h1 ,span{
         font-size: 20px;
