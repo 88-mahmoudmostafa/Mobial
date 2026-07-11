@@ -124,104 +124,23 @@ h2{
     font-weight: 700;
     color: black;
 }
-@media (max-width:500px) {
+@media (min-width:300px)  and  (max-width:500px) {
     .container{
-        padding: 4 20px;
+        padding: 5px 5px;
     }
-    section{
-        gap: 35px;
-        padding: 10px 0;
-        width: 100%;
-        
-
-    }
-    .image{
-         width: 50%;
-         height: 280px; 
-    }
-    .img-sc{
-        width: 100%;
-        margin-top: 0;
-        margin-bottom: 7px;
-      
-    }
-    .par{
-        width: 50%;    
-    }
-    .par p{
-        font-size: 14px;
-    }
-
     header{
-        width: 100%;
-        gap: 50px;
-     margin:  auto;
-     margin-top: 0 ;
-     margin-bottom: 0;
-    }
-    .last{
-    bottom: -50px;
-    }
-   header .logo{
-        width: 50px;
-        height: 50px;
-    }
-    .par h1{
-        font-size: 18px;
-    }
-    .par span{
-        font-size: 20px;
-    }
-    header h2{
-        font-size: 25px;
-    }
-    .last img{
-        width: 36px;
-    }
-}
-@media (min-width:501px) and (max-width:900px) {
-    .container{
-        padding:  10px 2px;
-    }
-    section{
-        padding:  10px 0;
-    }
-    .image{
-        height: 250px;
+        margin-bottom: 4px;
+        margin-top: 14px;
+        
     }
     header .logo{
-        width: 70px;
-        height: 70px;
-    }
-
-}
-@media (max-width:300px) {
-    .header .logo{
-        width: 100px;
-        height: 100px;
-    }
-    .image{
-        height: 300px;
-    }
-    .container{
-        padding: 15px 2px;
-        height: 100vh;
-    }
-    .par{
-        font-size: 20px;
-        width: 60%;
-        
+        width: 80px;
+        height: 80px;
     }
     section{
-        gap: 3px;
-        margin-top: 10px;
-        margin-bottom: 0;
-        padding: 10px 0;
-        height: 100%;
-        margin-top: -25px;
+        gap: 10px;
+        padding: 20px;
+        width: 100%;
     }
-    header{
-        margin-top: 20px;
-        height: 100%;
-    }
+
 }
