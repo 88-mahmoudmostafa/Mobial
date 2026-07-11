@@ -126,7 +126,7 @@ h2{
 }
 @media (max-width:500px) {
     .container{
-        padding: 0 20px;
+        padding: 4 20px;
     }
     section{
         gap: 35px;
@@ -222,5 +222,6 @@ h2{
     }
     header{
         margin-top: 20px;
+        height: 100vh;
     }
 }
